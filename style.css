@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:aliceblue;
+}
+
+.section-center{
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.image{
+    padding-top: 20px;
+    height: 250px;
+    width: 450px;
+}
+
+.article-content{
+    padding-top: 30px;
+    width: 450px;
+    height:250px;
+}
+
+h1{
+    color: rgb(15, 142, 253);
+    text-transform: uppercase;
+    line-height: 2rem;
+}
+
+h3{
+    color: black;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+p{
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.deadline{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deadline-format{
+    color: white;
+    background-color: rgb(63, 58, 58);
+    height: 60px;
+    width: 60px;
+    margin:10px;
+    text-align: center;
+}
+
+h4{
+    color:white;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+@media screen and (min-width:800px){
+    .section-center{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .image{
+        height: 300px;
+        width: 300px;
+    }
+    .article-content{
+        height: 300px;
+        width: 500px;
+        padding: 40px;
+    }
+}
+
+.expired{
+    color: black;
+}
